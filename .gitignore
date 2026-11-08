@@ -1,0 +1,39 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Local runtime data and credentials
+foxprofile/data/
+**/profiles.json
+**/settings.json
+Videos/downloads/
+muse_telebot/muse_users.db
+muse_telebot/muse_sync.json
+muse_telebot/muse_telebot_state.json
+muse_telebot/muse_team.json
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.log
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
+muse_telebot/muse_autoapprove.json
+
+# Dang bai fanpage/TikTok: cache danh sach Trang, anh chup chan doan
+social_post/data/
+social_post/logs/
+
+# Tu cap nhat: trang thai, nhat ky, sao luu file code cu
+.update/
+
+# Linux runtime lock
+muse_telebot/.muse_telebot.lock

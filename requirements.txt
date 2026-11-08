@@ -1,0 +1,5 @@
+-r foxprofile/repo/requirements.txt
+# bot (muse_telebot)
+pyTelegramBotAPI
+requests
+python-dotenv
